@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+
+    resize: both;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 200px auto;
+
+    grid-template-rows: 160px 800px;
+
+}
+
+.mainBar {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.sideBar {
+    background-color: #60a5fa;
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.upperBar {
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: solid gainsboro 14px;
+    box-shadow: 12px gainsboro
+}
+
+.firstLine {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secLine {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.iconName {
+    margin: 10px;
+    padding: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+
+.icon {
+
+    margin-left: 20px;
+    margin: 20px;
+    width: 30px;
+    height: 20px;
+}
+
+.dashText {
+    padding-top: 15px
+}
+
+textarea {
+
+    width: 40px;
+    height: 10px;
+}
+
+.upperMerge {}
+
+.searchBar {
+    margin-left: 80px;
+    width: 500px;
+    height: 30px;
+    background-color: gainsboro;
+
+}
+
+.imageLogo {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.zitsu {
+    margin-right: 50px;
+    font-size: 30px;
+    font-family: 'CactronRegular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.upperCorner {
+    margin-left: 10px;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+
+button {
+    margin-right: 20px;
+    background-color: #60a5fa;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+
+
+}
+
+.allBtns {
+    margin-right: 50px;
+
+}
+
+.mainBar {
+    padding: 10px;
+}
+
+.mainContainer {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+
+    grid-template-rows: 180px 180px 180px;
+
+
+
+}
+
+.cards {
+    padding: 3px;
+    margin: 20px;
+    border: solid gainsboro 5px;
+    border-left: solid #881337 7px;
+}
+
+.cards2 {}
+
+.container>div {}
